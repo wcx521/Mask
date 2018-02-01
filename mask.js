@@ -1,4 +1,4 @@
-;(function(){
+;(function($){
 
     function Mask(_this,options){
         this.$el = _this;
@@ -93,4 +93,4 @@
         return mask.init();
     }
 
-})()
+})(jQuery)
